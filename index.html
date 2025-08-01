@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="description"
+      content="A heartfelt birthday greeting for Angie, the Arcadian Poet."
+    />
+    <meta
+      name="keywords"
+      content="birthday, Angie, Arcadian Poet, celebration, greeting"
+    />
+    <meta name="author" content="Andy Scarvish" />
+    <title>Happy Birthday, Angie the Arcadian Poet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet/general_styles.css" />
+  </head>
+  <body class="body-font bg-gray-800 text-gray-100 relative h-screen">
+    <!-- Initial Hint Overlay -->
+    <div id="initial-hint" class="body-font">
+      <h1 class="text-3xl mb-4">Angelo DiBartolo: The Miracle Comet</h1>
+      <p class="text-xl mb-8">Tap anywhere to begin the celebration</p>
+      <p class="text-sm">(Music will play automatically)</p>
+    </div>
+
+    <!-- Content Slides -->
+    <div class="content-slide active" id="intro-slide">
+  <div class="intro-container">
+    <h1 class="intro-title">
+      <span class="title-line">Angelo DiBartolo:</span>
+      <span class="title-line">The Miracle Comet</span>
+    </h1>
+    <div class="intro-text">
+      <p class="text-line">
+        <span class="text-words">August 1st was never just a date—</span><br />
+        <span class="text-words">it was the day reality blinked.</span>
+      </p>
+      <p class="text-line">
+        <span class="text-words">Twenty-one years ago, heaven pressed pause just to ink one</span><br />
+        <span class="text-words">commandment into the sky:</span><br />
+        <em class="italic text-words">'Here. This one's special.'</em>
+      </p>
+      <p class="text-line">
+        <span class="text-words">On this day. On your day, it sent us a comet named Angelo DiBartolo.</span><br />
+        <span class="text-words">The miracle we didn't know we needed,</span><br />
+        <span class="text-words">the answer to a prayer we'd forgotten to whisper</span>
+      </p>
+    </div>
+  </div>
+</div>
+
+    <div class="content-slide">
+  <div class="sleep-token-slider-container">
+    <h2 class="text-2xl font-bold mb-6 text-center">A Moment of Worship </h2>
+    <div class="sleep-token-slider">
+      <div class="slider-track" id="slider-track">
+        <img src="images/Sleep-token/20250614_213742_030.jpg" alt="Sleep Token memory" class="slider-image active">
+        <img src="images/Sleep-token/IMG_3971.webp" alt="Sleep Token memory" class="slider-image">
+        <img src="images/Sleep-token/IMG_6020.webp" alt="Sleep Token memory" class="slider-image">
+        <img src="images/Sleep-token/IMG_6075.jpeg" alt="Sleep Token memory" class="slider-image">
+        <img src="images/Sleep-token/IMG_6126.webp" alt="Sleep Token memory" class="slider-image">
+      </div>
+    </div>
+    <div class="slider-nav">
+      <button class="slider-prev">❮</button>
+      <div class="slider-dots"></div>
+      <button class="slider-next">❯</button>
+    </div>
+  </div>
+</div>
+
+
+   <div class="content-slide" id="rumi-slide">
+  <div class="simple-centered-container">
+    <h2 class="celebration-title">Here's to celebrating you today.</h2>
+    <blockquote class="rumi-quote">
+      "You are not a drop in the ocean—<br>
+      you are the ocean in a drop."
+      <cite>— Rumi</cite>
+    </blockquote>
+  </div>
+</div>
+
+
+    <div class="content-slide">
+      <div class="text-container text-center space-y-6">
+        <p class="text-3xl">Happy<br />Happy<br />Happy<br />Birthday!!</p>
+        <p class="text-xl">
+          You are now <strong class="font-bold">21 years old!</strong><br />
+          <span class="hurray">Hurray!!</span>
+        </p>
+        <p class="text-lg">
+          This birthday, I wish you abundant happiness and love. May all your dreams turn into reality and may lady luck visit your home today. Happy birthday to one of the sweetest people I’ve ever known
+        </p>
+        <p class="text-4xl">🫂</p>
+      </div>
+    </div>
+
+    <div class="content-slide">
+      <!-- First Part - Goethe Quote -->
+      <div class="poem-part active" data-part="1">
+        <div class="poem-container">
+          <h2 class="text-2xl font-bold text-center mb-6">
+            For the matchless poet, my life-giving poet
+          </h2>
+          <blockquote
+            class="quote-font italic text-lg border-l-4 border-pink-400 pl-4 py-2 mb-6"
+          >
+            "Happy he who, grudgeless, best locks the world away, Holds one dear
+            friend to his breast, With him to enjoy What, to humankind unknown
+            Or not brought to light, Through heart's labyrinth alone Wanders in
+            the night."
+            <cite class="not-italic block mt-2"
+              >— Johann Wolfgang von Goethe</cite
+            >
+          </blockquote>
+          <div class="text-center">
+            <button
+              class="next-part-btn bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full transition"
+            >
+              A birthday poem for you. ▼
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Part - Your Poem -->
+      <div class="poem-part" data-part="2">
+        <div class="poem-container">
+          <button
+            class="prev-part-btn bg-gray-500 hover:bg-gray-600 text-white px-4 py-1 rounded-full mb-4 transition"
+          >
+            ▲ Back
+          </button>
+          <p class="text-center text-xl mb-6"><b>A special verse for you</b>:</p>
+          <h2 class="poem-font text-3xl text-center text-blue-200 mb-6">
+            The blue bird
+          </h2>
+          <div class="poem-text-container">
+            <pre class="poem-font text-lg whitespace-pre-wrap">
+I am the blue bird that wanders the earth
+I have flown side by side with time
+Different kinds of people I have known
+Yet none like you
+You topple all my preconceived notions of humanity
+Never had I ever known a kind soul as you
+I flew with time to speed for my final departure-death
+Then you came along
+And for the first, I don't want to go yet.
+No, not yet.
+I can't put my finger around it
+Every fiber of my being screams:
+You are incredible, Angelo. 
+You are my matchless poet
+You have a way with words that is awe-inspiring
+You make poetry seem easy
+I know it is.
+Yet your smoothness with words is but a dazzling wonder
+Angelo, the life-giving poet
+I call you that because you woke the dead-me
+Your poems and how you write is a breath of life for me
+Matchless poet
+Life-giving poet
+Which is it?
+which should I settle for?
+I don't know. Both? Yes both
+Knowing you is one of the best things in my life
+The world has waited for this day,
+And now you are here
+Our answer,
+Our long awaited comet
+Happy birthday, dearest friend.</pre
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-slide">
+      <div class="text-container">
+        <h2 class="text-2xl font-bold mb-6 text-center">
+          A Collection of Angie:
+        </h2>
+        <div class="grid-gallery">
+          <img src="images/angie/angieB.jpg" alt="Angelo DiBartolo" />
+          <img src="images/angie/image000000.webp" alt="Angelo DiBartolo" />
+          <img src="images/angie/IMG_1483.webp" alt="Angelo DiBartolo" />
+          <img src="images/angie/IMG_5492.webp" alt="Angelo DiBartolo" />
+          <img src="images/angie/IMG_6008.webp" alt="Angelo DiBartolo" />
+          <img src="images/angie/IMG_6237.webp" alt="Angelo DiBartolo" />
+          <img src="images/angie/IMG_6218.webp" alt="Angelo DiBartolo" />
+        </div>
+      </div>
+    </div>
+
+    <div class="content-slide">
+  <div class="closing-container">
+    <!-- Quote Part -->
+    <div class="quote-part">
+      <div class="quote-card">
+        <div class="quote-scroll">
+          <blockquote class="quote-font italic text-lg md:text-xl border-l-4 border-yellow-400 pl-4 py-2">
+            "I went to the woods because I wished to live deliberately, to front
+            only the essential facts of life, and see if I could not learn what it
+            had to teach, and not, when I came to die, discover that I had not
+            lived. I did not wish to live what was not life, living is so dear;
+            nor did I wish to practice resignation, unless it was quite necessary.
+            I wanted to live deep and suck out all the marrow of life, to live so
+            sturdily and Spartan-like as to put to rout all that was not life, to
+            cut a broad swath and shave close, to drive life into a corner, and
+            reduce it to its lowest terms, and, if it proved to be mean, why then
+            to get the whole and genuine meanness of it, and publish its meanness
+            to the world; or if it were sublime, to know it by experience, and be
+            able to give a true account of it in my next excursion."
+            <cite class="not-italic block mt-4 text-yellow-300">— Henry David Thoreau, Walden</cite>
+          </blockquote>
+        </div>
+        <button class="continue-btn">Continue ▼</button>
+      </div>
+    </div>
+    
+    <!-- Final Message Part -->
+    <div class="final-message-part hidden">
+      <div class="message-card">
+        <button class="back-btn">▲ Back</button>
+        <p class="text-center text-xl md:text-2xl leading-relaxed">
+          May you be gifted with life’s biggest joys and never-ending bliss. After all, you yourself are a gift to earth, so you deserve the best. Happy birthday.
+        </p>
+        <div class="hearts-container">
+          ❤️✨❤️✨❤️
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <audio id="birthday-audio" loop>
+      <source src="audio/sleep_token_look_to_windward_mp3_51607.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Improved Music Controls -->
+    <div id="music-icon-fixed" onclick="toggleAudio()">🔇</div>
+
+    <!-- Improved Visualizer -->
+    <div class="visualizer-container" id="visualizer-fixed">
+      <div class="visualizer-bars">
+        <div class="visualizer-bar"></div>
+        <div class="visualizer-bar"></div>
+        <div class="visualizer-bar"></div>
+        <div class="visualizer-bar"></div>
+        <div class="visualizer-bar"></div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+     
+    </script>
+  </body>
+</html>
+
